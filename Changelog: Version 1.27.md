@@ -28,7 +28,6 @@ We’re excited to introduce KAWA’s AI Co-Builder, a new feature designed to h
 
 ## Bug fixes
 
-
 - Handle visibility for columns in expression editor and add fields section
 - Script preview is broken
 - Number filter: Apply button is disabled when "Condition" tab is selected and value is "0" -> impossible to apply filter
@@ -39,6 +38,24 @@ We’re excited to introduce KAWA’s AI Co-Builder, a new feature designed to h
 - Application version is no longer showing up
 - Formatters - overflow for dropdown
 - Publish button is missing on views
+
+
+## Patches
+
+### Version 1.27.1 (November 22nd 2024)
+
+- Fix pivot first column width
+- Fix selection in Control panel multi select
+- Fix formula edition when parameters are involved
+- Add signup feature flag
+
+
+### Version 1.27.2 (December 4th 2024)
+
+- Fix support for `<=` and `<` in formula editor
+- Fix date and date time indexes
+- Allow to use both integers and decimals in IF branches
+- Fix Rendering of number formats (Red color)
 
 
 
